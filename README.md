@@ -4,8 +4,8 @@
 # Установка
 1. Имейте мозги, чтобы вбить токен паблика и ид в файл config.js
 2. Linux: 
-```npm install colors   npm install vk-io
-```
+```npm install colors```
+```npm install vk-io```
 or
 ```sh install.sh```
 
