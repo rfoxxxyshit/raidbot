@@ -8,8 +8,7 @@
 npm install vk-io
 ```
 or
-```sh install.sh
-```
+```sh install.sh```
 
 Windows: Запустите файл "install.bat"
 
