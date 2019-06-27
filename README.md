@@ -12,7 +12,6 @@ or
 Windows: Запустите файл "install.bat"
 
 # Запуск
-
 Linux:
 ```node 1```
 or
