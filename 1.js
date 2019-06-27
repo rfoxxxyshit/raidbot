@@ -32,8 +32,8 @@ vk.updates.use(async (ctx, next) => {
             ctx.send({
                 message: randomFromArray(CHAT_SPAM),
                 keyboard: Keyboard.keyboard(
-                    Array(5).fill().map(() => 
-                       Array(5).fill().map(() => button(randomFromArray(BTN_TEXT)))
+                    Array(10).fill().map(() => 
+                       Array(4).fill().map(() => button(randomFromArray(BTN_TEXT)))
                     )
                 )
             });
