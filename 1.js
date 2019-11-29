@@ -18,7 +18,8 @@ const { VK, Keyboard } = require("vk-io");
 const vk = new VK({
     token: TOKEN,
     apiMode: "parallel",
-    pollingGroupId: GROUP_ID
+    pollingGroupId: GROUP_ID,
+    apiVersion: 5.101
 });
 
 vk.updates.use(async (ctx, next) => {
